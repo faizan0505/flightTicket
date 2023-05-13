@@ -26,6 +26,7 @@
 ### Booking flight and passenger details are protected route so, log-in first then it will work
 
 ## for flight booking
+#### for book flight - http://localhost:4300/book-flight
 #### Put in req.body - source, destination, date, flight:[indigo,airAsia,vistara](choose any one), fare: from above api
 
 ## Get All Booking
