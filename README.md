@@ -23,6 +23,7 @@
 #### for get price - http://localhost:4300/price?source=Illinois&destination=Pennsylvania
 #### Pass source and destination in query [get source and destination data from mock API data]
 
+# Authentication
 ### Booking flight and passenger details are protected route so, log-in first then it will work
 
 ## for flight booking
