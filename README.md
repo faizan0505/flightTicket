@@ -2,7 +2,7 @@
 
 //Unable to found free Flight API, Every Flight API was paid version.
 //So, make mock API and do my best
-##### To run this backend server use Postman or thunder Client
+## To run this backend server use Postman or thunder Client
 
 
 ## To run backend set mongo atlas url in .env file 
@@ -13,21 +13,21 @@
 
 #### Sign-up -> http://localhost:4300/signup
 #### login -> http://localhost:4300/login
-# after login token store in cookie so it will handle by server
+##### after login token store in cookie so it will handle by server
 #### log-Out -> http://localhost:4300/logout
 
-#### for get the name/details of source and destination - http://localhost:4300/places
+## for get the name/details of source and destination - http://localhost:4300/places
 
 
-#### for get price - http://localhost:4300/price?source=Illinois&destination=Pennsylvania
-# Pass source and destination in query [get source and destination data from mock API data]
+## for get price - http://localhost:4300/price?source=Illinois&destination=Pennsylvania
+#### Pass source and destination in query [get source and destination data from mock API data]
 
 ### Booking flight and passenger details are protected route so, log-in first then it will work
 
-#### for flight booking
-# Put in req.body - source, destination, date, flight:[indigo,airAsia,vistara](choose any one), fare: from above api
+## for flight booking
+#### Put in req.body - source, destination, date, flight:[indigo,airAsia,vistara](choose any one), fare: from above api
 
 
-#### All Booking - http://localhost:4300/booking-details
+## All Booking - http://localhost:4300/booking-details
 
 ### Now you may log-Out by hit on log-Out route otherwise it will automaticall log-Out with in 24-hours
